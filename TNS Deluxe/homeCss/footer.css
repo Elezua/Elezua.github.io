@@ -1,0 +1,66 @@
+.footer {
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.firstFooterFrame {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 13rem;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.firstFooterFrame img {
+    width: 50%;
+    height: 50%;
+}
+
+.footerSecondFrame, .footerThirdFrame, .footerFourthFrame {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 14rem;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.firstFooterFrame .socialIcons i {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--white);
+    margin: 0.625rem;
+}
+
+.footerSecondFrame h3, .footerThirdFrame h3, .footerFourthFrame h3{
+    color: var(--white);
+    font-family: Alegraya;
+    font-size: 1.5rem;
+}
+
+.footerSecondFrame p, .footerThirdFrame p, .footerFourthFrame p {
+    font-size: 1.0rem;
+    font-family: poppins;
+    color: var(--white);
+    font-weight: normal;
+}
+
+@media (min-width:300px) and (max-width:1024px) {
+    .footerSecondFrame h3, .footerThirdFrame h3, .footerFourthFrame h3{
+
+        font-size: 1rem;
+    }
+    
+    .footerSecondFrame p, .footerThirdFrame p, .footerFourthFrame p {
+
+        font-size: 0.8rem;
+        font-family: poppins;
+        font-weight: normal;
+    }
+    
+    
+}

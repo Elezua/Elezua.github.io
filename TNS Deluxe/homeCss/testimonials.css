@@ -1,0 +1,128 @@
+.testimonials {
+    background-color: var(--Rice-White);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.testimonialFrame {
+    display: flex;
+    flex-direction: row;
+    margin: 12.5rem 0 12.5rem 12.5rem;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    width: 44rem;
+    height: 26rem;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 0.625rem;
+    margin-right: 3.125rem;
+}
+
+.review p {
+    width: 50%;
+    margin: 3.125rem;
+    color: white;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.review .photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3.125rem;
+    width: 50%;
+}
+
+.review .photos img {
+    width: 50%;
+    height: 10rem;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+
+    .testimonialFrame {
+        display: flex;
+        flex-direction: row;
+        margin: 6.25rem 0 6.25rem 6.25rem;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: row;
+        width: 34rem;
+        height: 21rem;
+        align-items: center;
+        background-color: var(--secondary-color);
+        border-radius: 0.625rem;
+        margin-right: 3.125rem;
+    }
+
+    .review p {
+        width: 50%;
+        margin: 1.6rem;
+        color: white;
+        font-family: poppins;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+
+    .review .photos img {
+        width: 50%;
+        height: 7.5rem;
+    }
+
+    .review .photos {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media (max-width:768px) {
+
+    .testimonialFrame {
+        display: flex;
+        flex-direction: row;
+        margin: 3.125rem 0 3.125rem 3.125rem;
+        align-items: center;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: row;
+        width: 19rem;
+        height: 14rem;
+        margin-right: 1.6rem;
+        align-items: center;
+    }
+
+    .review p {
+        width: 50%;
+        margin: 1.6rem;
+        color: white;
+        font-family: poppins;
+        font-size: 0.625rem;
+        font-weight: normal;
+    }
+
+    .review .photos {
+        display: flex;
+        flex-direction: row;
+        margin: 1.6rem;
+        width: 50%;
+        height: 7rem;
+        justify-content: space-between;
+    }
+
+    .review .photos img {
+        width: 50%;
+        height: 50%; 
+    }
+}

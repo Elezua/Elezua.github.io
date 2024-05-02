@@ -1,0 +1,135 @@
+@media (min-width: 1024px){
+    .Header {
+        display: flex;
+        width: 100%;
+        padding: 1rem 6.25rem;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        background-color: var(--primary-color);
+        border-bottom: 0.06rem solid var(--white);
+        z-index: 100;
+    }
+    
+    .logo, .logo img {
+        width: 4.6rem;
+        height: 3.3rem;
+    }
+    
+    .menuItems ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 26.94rem;
+    }
+    
+    .menuIcons {
+        display: flex;
+        width: 10.75rem;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .menuIcons i {
+        color: var(--white);
+    }
+    
+    ul li {
+        list-style: none;
+        color: var(--white);
+        font-family: poppins;
+        font-size: 1.125rem;
+        font-weight: 300;
+    }
+
+    .tabHeader {
+        display: none;
+    }
+}
+
+@media (min-width:375px) and (max-width:1024px) {
+    .Header {
+        display: none;
+    }
+
+    .tabHeader {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        background-color: var(--primary-color);
+        align-items: center;
+        padding: 1.6rem 3.25rem 1.6rem 3.25rem;
+        border-bottom: 0.0652rem solid var(--white);
+    }
+
+    .tabHeader img {
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .tabMenu {
+        display: none;
+    }
+
+    .tabMenuIcons {
+        display: flex;
+        width: 7.6rem;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .tabMenuIcons i {
+        color: var(--white);
+    }
+
+    .tabMenu {
+        display: flex;
+        flex-direction: column;
+        width: 25rem;
+        height: 32rem;
+        display: flex;
+        position: absolute;
+        background-color: var(--white);
+        top: 0;
+        left: -400px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        transition: left 0.3s ease;
+  
+    }
+
+    .tabMenu.active {
+        left: 0;
+    }
+
+    .tabMenu img {
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .logoandCancel {
+        display: flex;
+        justify-content: space-between;
+        width: 19rem;
+        margin: 1.6rem;
+    }
+
+    .logoandCancel #cancel {
+        color: var(--primary-color);
+    }
+
+    .tabMenu i {
+        color: var(--white);
+    }
+    
+    .tabMenuItems {
+        display: flex;
+        flex-direction: column;
+        width: 7rem;
+        height: 16rem;
+        margin: 3.125rem;
+        justify-content: space-between;
+    }
+    
+}
+

@@ -1,0 +1,121 @@
+.preorder {
+    background-color: var(--Rice-White);
+    justify-content: center;
+    display: flex;
+}
+
+.preorderFrame {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../Images/Preorder\ background\ image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 6.25rem;
+    justify-content: center;
+}
+
+.preorderTexts {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    margin: 3.125rem;
+    
+}
+
+.preorderTexts h2, .preorderTexts p, .preorderText button{
+    color: white;
+    margin-bottom: 3.125rem;
+}
+
+.preorderTexts h2{
+    font-size: 2.6rem;
+}
+
+.preorderTexts p{
+    font-size: 1.125rem;
+}
+
+.preorderImage img {
+    width: 50%;
+    width: 30rem;
+    margin: 3.125rem;
+    
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .preorderFrame {
+        margin: 3.125rem;
+    }
+
+    .preorderTexts {
+        margin: 5%;
+    }
+  
+    .preorderTexts h2, .preorderTexts p, .preorderText button{
+        /* width: 100%; */
+        color: white;
+        margin-bottom: 1.56rem;
+    }
+
+    .preorderTexts h2 {
+        font-size: 1.56rem;
+    }
+
+    .preorderTexts p{
+        font-size: 1rem;
+    }
+
+    .preorderImage {
+        width: 50%;
+        margin: 5%;
+        
+    }
+
+    .preorderImage img {
+        width: 100%;
+        margin: 5%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .preorderFrame {
+        margin: 1.6rem;
+    }
+
+    .preorderTexts {
+        margin: 1.6rem;
+    }
+
+    .preorderTexts h2, .preorderTexts p, .preorderText button{
+        width: 100%;
+        color: white;
+        margin-bottom: 0.8rem;
+    }
+
+    
+    .preorderTexts h2 {
+        font-size: 1rem;
+    }
+
+    .preorderTexts p{
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+
+    .preorderImage {
+        width: 50%;
+        height: 80%;
+        margin: 1.6rem;
+        
+    }
+
+    .preorderImage img {
+        width: 100%;
+        height: 100%;
+        margin: 5%;
+    }
+
+}
